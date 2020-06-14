@@ -437,15 +437,47 @@ footer span{
 footer a{
     padding-left: 3px;
 }
+/********     Nav icon       ********/
+#nav-icon{
+    display: none;
+}
 
 /************      Media Querries       ************/
 @media (max-width:450px){
  /**********        Header          ***/
     header {
         width:970px;
+    }
+/********     Nav icon       ********/
+   #nav-icon{
+    position: relative;
+    display: inline-block;
+    left: 68%;
+    font-size: 4rem;
+}
+   #nav-icon:hover{
+    color: #8cb654;
+   }
+    .navbar {
+        display: block;
+    }
+    ul {
+     
+        display: none;
+        left: 7%;
     } 
+    li{
+        display: block;
+        padding-bottom: 22px;
+    }
      li a{
-        font-size: larger;
+        font-size: 2rem;
+    }
+
+    #main-btn{
+    position: relative;
+    left: -2%;
+    top: 6px;
     }
     div{
     width:967px;
@@ -515,9 +547,7 @@ footer a{
 #Registr-Btn{
     padding: 0%;
 }
-ul {
-  left: 7%;
-}
+
 #Aboutus h2 {
    
     width: 44%;
@@ -688,4 +718,10 @@ footer h5{
 
 
 
+}
+@media(max-width:360px){
+    footer {
+        width: 268%;
+        height: 30vh;
+    }
 }
