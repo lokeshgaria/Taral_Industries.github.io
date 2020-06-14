@@ -8,9 +8,9 @@
 
     <!--------------------  FontAwsome CDN  link     ------------->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-------------------   jQuery cdn link           ------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-
-    <script src="index.js"></script>
     <title>Taral Industries Private Limited</title>
 </head>
 
@@ -29,13 +29,15 @@
     <!--------------------     navbar      ------------->
     <div class="navbar">
         <img id="logo" src="logo.png" alt="">
+        <i class="fa fa-3x fa-bars" id="nav-icon" aria-hidden="true" onclick="display()"></i>
         <ul>
             <li><a href="#backImg">Home</a></li>
             <li><a href="#section-4">About Us</a></li>
             <li><a href="#section-5">Our Products</a></li>
             <li><a href="#footer">Contacts</a></li>
-            <li><button class="register"> Register</button></li>
+            <li> <button class="register" id="main-btn"> Register</button></li>
         </ul>
+        
     </div>
     <!--------------------   section 1   ------------->
     <div id="backImg">
@@ -178,10 +180,17 @@
     <footer>
         <div id="footer" >
        <h5> &copy; 2020 Tral Corporation Pvt Ltd.| All rights reserved. </h5>
-       <p>Made with love by<span> Stickman Services </span> &nbsp;&nbsp;&nbsp;<a href="#head1"> <i class="fa fa-2x fa-long-arrow-up" aria-hidden="true"></i></a></p>
+       <p>Made with love by<span> Stickman Services </span> &nbsp;&nbsp;&nbsp;<a href="#head1"> 
+           <i class="fa fa-2x fa-long-arrow-up" aria-hidden="true"></i></a></p>
       
        </div>
     </footer>
 </body>
-
+<script>
+       $(document).ready(function(){
+           $('#nav-icon').click(function(){
+               $('ul').toggle('slow')
+           });
+       })
+</script>
 </html>
