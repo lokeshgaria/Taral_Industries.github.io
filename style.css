@@ -21,6 +21,61 @@ html {
      color: white;
       
  }
+ /***************** Counters ***********************/
+ 
+        .single-fact {
+            position: relative;
+            left: 2px;
+            margin: 12px 0px;
+            padding: 8px 60px;
+            border-right: 1px solid #ddd;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .container{
+            position: relative;
+            left: 223px;
+            top: -39px;
+        }
+
+        .single-fact h2 {
+            font-weight: bold;
+           
+            margin-top: 12px;
+
+        }
+        .single-fact p{
+            color: #94df33;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .fact-area {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 26vh;
+        }
+
+        .fact-box {
+
+            -webkit-box-shadow: 0px -1px 35px -18px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px -1px 35px -18px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px -1px 35px -18px rgba(0, 0, 0, 0.75);
+            border-radius: 12px;
+            margin-left: 44px;
+        }
+
+        
+        .row{
+            display: flex;
+            padding: 8px;
+            position: relative;
+            top: 8px;
+            left: 0px;
+        }
+    
+
 
  #Cname{
       
@@ -713,6 +768,59 @@ footer h5{
     font-size: 2rem;
     padding-left: 3%;
     font-weight: lighter;
+}
+/***************** Counters ***********************/
+ 
+.single-fact {
+    position: relative;
+    left: 160px;
+    margin: 12px 0px;
+    border-left: 6px solid #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 6px solid #ddd;
+    width: 62%;
+    
+     
+    
+}
+.container{
+    position: relative;
+    left: -28px;
+    top: -34px;
+}
+
+.single-fact h2 {
+    font-weight: bold;
+    color: #94df33;
+    margin-top: 12px;
+    font-size: 51px;
+
+}
+.single-fact p{
+   color: #001e57;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.fact-area {
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 68vh;
+}
+
+.fact-box {
+
+  
+    box-shadow: none;
+    border-radius: 12px;
+    margin-left: 44px;
+}
+
+
+.row{
+    display: block;
+    
 }
 
 
