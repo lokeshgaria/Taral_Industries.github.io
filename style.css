@@ -21,6 +21,27 @@ html {
      color: white;
       
  }
+
+ /**********   Preloaders   ***********/
+ #loader{
+            
+    width: 100%;
+    height: 100vh;
+    background: url(' https://media.giphy.com/media/11ASZtb7vdJagM/giphy.gif'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+    position: fixed;
+    z-index: 33333;
+}
+#loaderparent{
+    background-color: black;
+   width: 100%;
+    height: 100vh; 
+    position: fixed;
+    z-index: 3333;
+    
+}
  /***************** Counters ***********************/
  
         .single-fact {
